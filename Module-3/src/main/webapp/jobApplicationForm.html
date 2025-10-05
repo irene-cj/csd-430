@@ -1,0 +1,48 @@
+<!-- Irene Carrillo Jaramillo, Module 3, 09/28/2025,
+This program will allow the user to fill out the fields in the job application CSD 430. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <h1>Job Application</h1>
+    <p>Please fill out the following information:</p>
+
+    <!-- This will form action points to the JSP file. -->
+    <form action="jobApplication.jsp" method="post">
+
+        <!-- This is for the text input. -->
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <!-- This is for the email input. -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <!-- This will be for the dropdown list.-->
+        <label for="position">Position Applied For:</label>
+        <select name="position" id="position">
+            <option value="Warehouse Worker">Warehouse Worker</option>
+            <option value="Supervisor">Supervisor</option>
+            <option value="Driver">Driver</option>
+            <option value="Manager">Manager</option>
+        </select><br><br>
+
+        <!-- This is for the radio buttons. -->
+        <label>Years of Experience:</label><br>
+        <input type="radio" name="experience" value="0-1 Years"> 0 - 1 Years<br>
+        <input type="radio" name="experience" value="2-4 Years"> 2 - 4 Years<br>
+        <input type="radio" name="experience" value="5+ Years"> 5+ Years<br>
+
+        <!-- This will allow the user to add in text. -->
+        <label for="skills">Skills and Qualifications:</label><br>
+        <textarea name="skills" id="skills" rows="5" cols="40"></textarea><br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>
