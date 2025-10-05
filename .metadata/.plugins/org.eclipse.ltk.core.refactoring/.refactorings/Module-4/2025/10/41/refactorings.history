@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;displayBooks.jsp&apos; to &apos;webapp&apos;" description="Move &apos;displayBooks.jsp&apos; to &apos;webapp&apos;" destination="src/main/webapp" element1="displayBooks.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1759629752338" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;styles.css&apos; to &apos;webapp&apos;" description="Move &apos;styles.css&apos; to &apos;webapp&apos;" destination="src/main/webapp" element1="styles.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1759631703337" updateReferences="true"/>
+</session>
